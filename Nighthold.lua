@@ -55,7 +55,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 206936, 82, 5, 5) -- Icy Ejection (non-dis
 GridStatusRaidDebuff:DebuffId(zoneid, 206388, 83, 5, 5, false, true) -- Felburst (non-dispellable, stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 205649, 84, 5, 5, false, true) -- Fel Ejection (non-dispellable, stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 206965, 85, 5, 5) -- Voidburst (non-dispellable)
-GridStatusRaidDebuff:DebuffId(zoneid, 207143, 85, 5, 5) -- Void Ejection (non-dispellable)
+GridStatusRaidDebuff:DebuffId(zoneid, 207143, 86, 5, 5) -- Void Ejection (non-dispellable)
 
 -- Grand Magistrix Elisande
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Grand Magistrix Elisande")
