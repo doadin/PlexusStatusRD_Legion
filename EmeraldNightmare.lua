@@ -1,6 +1,10 @@
 -- local zone = "The Emerald Nightmare"
 local zoneid = 1094
 
+-- Trash
+-- Nythendra
+GridStatusRaidDebuff:DebuffId(zoneid, 221028, 1, 2, 2, true) -- Unstable Decay
+
 -- Nythendra
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Nythendra")
 -- Infested (Heroic)
@@ -175,7 +179,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 208431, 93, 3, 3, true) -- Descent into Ma
 GridStatusRaidDebuff:DebuffId(zoneid, 207409, 94, 6, 6) -- Madness (mind control)
 -- Stage One
 -- Darkening Soul (dot, magic, explosion on dispel)
-GridStatusRaidDebuff:DebuffId(zoneid, 206651, 95, 8, 8) -- Darkening Soul (dot, magic)
+GridStatusRaidDebuff:DebuffId(zoneid, 206651, 95, 8, 8, true) -- Darkening Soul (dot, magic)
 -- Nightmare Blades (fixate)
 GridStatusRaidDebuff:DebuffId(zoneid, 211802, 96, 7, 7, true) -- Nightmare Blades (fixate)
 -- Corruption Horror
