@@ -10,4 +10,5 @@ CheckCompat.lua
 BrokenIsles.lua
 EmeraldNightmare.lua
 Nighthold.lua
+TrialofValor.lua
 
