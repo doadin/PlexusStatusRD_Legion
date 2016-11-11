@@ -1,6 +1,9 @@
 --local zone = "Trial of Valor"
 local zoneid = 1114
 
+--Trash
+GridStatusRaidDebuff:DebuffId(zoneid, 232450, 1, 5, 5) -- Corrupted Axion
+
 -- Guarm
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Guarm")
 GridStatusRaidDebuff:DebuffId(zoneid, 228226, 11, 6, 6) -- Flame Lick
