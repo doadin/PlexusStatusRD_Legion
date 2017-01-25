@@ -74,6 +74,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 207143, 86, 5, 5) -- Void Ejection (non-di
 
 -- Grand Magistrix Elisande
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Grand Magistrix Elisande")
+-- Stage Three
+GridStatusRaidDebuff:DebuffId(zoneid, 211258, 91, 5, 5) -- Permeliative Torment (non-dispellable) (DoT)
 
 -- Gul'dan
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Gul'dan")
