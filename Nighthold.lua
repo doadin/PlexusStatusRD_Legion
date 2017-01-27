@@ -24,7 +24,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 212099, 24, 5, 5) -- Temporal Charge (non-
 GridStatusRaidDebuff:BossNameId(zoneid, 30, "Trilliax")
 GridStatusRaidDebuff:DebuffId(zoneid, 206482, 31, 5, 5) -- Arcane Seepage (non-dispellable) (Ground AoE)
 -- The Cleaner
-GridStatusRaidDebuff:DebuffId(zoneid, 206788, 32, 5, 5, false, true) -- Toxic Slice (non-dispellable) (DMG + Debuff Stacking DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 206788, 32, 6, 6, false, true) -- Toxic Slice (non-dispellable) (DMG + Debuff Stacking DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 214573, 32, 5, 5, false, true) -- Stuffed (non-dispellable)
 
 -- Spellblade Aluriel
 GridStatusRaidDebuff:BossNameId(zoneid, 40, "Spellblade Aluriel")
