@@ -32,9 +32,17 @@ GridStatusRaidDebuff:BossNameId(zoneid, 40, "Spellblade Aluriel")
 -- Chamion of Blades
 GridStatusRaidDebuff:DebuffId(zoneid, 212492, 41, 5, 5) -- Annihilate (non-dispellable) (DMG + Tank Debuff)
 -- Master of Frost
-GridStatusRaidDebuff:DebuffId(zoneid, 212587, 42, 5, 5) -- Mark of Frost (non-dispellable) (DMG + Increase DMG taken per stack explodes if two people with it get close)
--- Frostbitten (non-dispellable, Stacks)(TODO)
-GridStatusRaidDebuff:DebuffId(zoneid, 213083, 44, 5, 5) -- Frozen Tempest (non-dispellable) (DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 212587, 42, 7, 7) -- Mark of Frost (non-dispellable) (DMG + Increase DMG taken per stack explodes if two people with it get close)
+GridStatusRaidDebuff:DebuffId(zoneid, 212647, 43, 6, 6, false, true) -- Frostbitten (non-dispellable, Stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 212736, 44, 5, 5) -- Pool of Frost (Ground AOE)
+GridStatusRaidDebuff:DebuffId(zoneid, 213083, 45, 5, 5) -- Frozen Tempest (non-dispellable) (DoT)
+-- Master of Fire 
+GridStatusRaidDebuff:DebuffId(zoneid, 213166, 46, 7, 7, false, true) -- Searing Brand (non-dispellable, Stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 213278, 47, 5, 5) -- Burning Ground (Ground AOE)
+-- Master of the Arcane
+GridStatusRaidDebuff:DebuffId(zoneid, 213504, 48, 5, 5) -- Arcane Fog (Ground AOE)
+-- Fel Soul
+GridStatusRaidDebuff:DebuffId(zoneid, 230414, 49, 5, 5) -- Fel Stomp (Ground AOE)
 
 -- Tichondrius
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Tichondrius")
@@ -50,8 +58,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 216040, 56, 5, 5, true, false) -- Burning 
 
 -- Krosus
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Krosus")
--- Searing Brand (non-dispellable, Stacks)(TODO)
-GridStatusRaidDebuff:DebuffId(zoneid, 208203, 62, 5, 5) -- Isolated Rage (non-dispellable) (Ground AoE Not Avoidable)
+GridStatusRaidDebuff:DebuffId(zoneid, 208203, 61, 5, 5) -- Isolated Rage (non-dispellable) (Ground AoE Not Avoidable)
+GridStatusRaidDebuff:DebuffId(zoneid, 206677, 62, 5, 5, false, true) -- Searing Brand (non-dispellable, Stacks)
 
 -- High Botanist Tel'arn
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "High Botanist Tel'arn")
@@ -65,7 +73,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 218424, 73, 5, 5, false, true) -- Parasiti
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Star Augur Etraeus")
 -- Stage Two
 GridStatusRaidDebuff:DebuffId(zoneid, 206585, 81, 5, 5, false, true) -- Absolute Zero (non-dispellable, stacks) (DMG + Dispellable by Player Clump That then causes Chill)
-GridStatusRaidDebuff:DebuffId(zoneid, 206936, 82, 5, 5) -- Icy Ejection (non-dispellable, stacks) (DoT + Slow-to-Stun)
+GridStatusRaidDebuff:DebuffId(zoneid, 206936, 82, 5, 5, true) -- Icy Ejection (non-dispellable, stacks) (DoT + Slow-to-Stun)
 -- Stage Three
 GridStatusRaidDebuff:DebuffId(zoneid, 206388, 83, 5, 5, false, true) -- Felburst (non-dispellable, stacks) (DMG + DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 205649, 84, 5, 5, false, true) -- Fel Ejection (non-dispellable, stacks) (DMG + DoT)
