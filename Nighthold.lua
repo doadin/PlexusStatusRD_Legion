@@ -37,7 +37,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 212647, 43, 6, 6, false, true) -- Frostbit
 GridStatusRaidDebuff:DebuffId(zoneid, 212736, 44, 5, 5) -- Pool of Frost (Ground AOE)
 GridStatusRaidDebuff:DebuffId(zoneid, 213083, 45, 5, 5) -- Frozen Tempest (non-dispellable) (DoT)
 -- Master of Fire 
-GridStatusRaidDebuff:DebuffId(zoneid, 213166, 46, 7, 7, false, true) -- Searing Brand (non-dispellable, Stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 213166, 46, 7, 7, true, true) -- Searing Brand (non-dispellable, Stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 213278, 47, 5, 5) -- Burning Ground (Ground AOE)
 -- Master of the Arcane
 GridStatusRaidDebuff:DebuffId(zoneid, 213504, 48, 5, 5) -- Arcane Fog (Ground AOE)
@@ -66,8 +66,9 @@ GridStatusRaidDebuff:BossNameId(zoneid, 70, "High Botanist Tel'arn")
 --Arcanist Tel'arn
 GridStatusRaidDebuff:DebuffId(zoneid, 218502, 71, 5, 5, false, true) -- Recursive Strikes (non-dispellable, stacks) (Increases DMG Taken)
 -- Naturalist Tel'arn
-GridStatusRaidDebuff:DebuffId(zoneid, 219049, 72, 5, 5) -- Toxic Spores (non-dispellable) (Ground AoE)
+GridStatusRaidDebuff:DebuffId(zoneid, 219049, 72, 5, 5, false, true) -- Toxic Spores (non-dispellable) (Ground AoE)
 GridStatusRaidDebuff:DebuffId(zoneid, 218424, 73, 5, 5, false, true) -- Parasitic Fetter (dispellable) (Root + Increaseing DMG)
+GridStatusRaidDebuff:DebuffId(zoneid, 218809, 74, 5, 5, true, false) -- Call of Night
 
 -- Star Augur Etraeus
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Star Augur Etraeus")
