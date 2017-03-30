@@ -9,7 +9,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 204766, 11, 5, 5, false, true) -- Energy S
 GridStatusRaidDebuff:DebuffId(zoneid, 214657, 12, 5, 5) -- Acidic Fragments (non-dispellable) (DMG + Debuff)
 GridStatusRaidDebuff:DebuffId(zoneid, 214662, 13, 5, 5) -- Volatile Fragments (non-dispellable) (DMG + Debuff)
 -- Arcanoslash
-GridStatusRaidDebuff:DebuffId(zoneid, 211659, 14, 5, 5, false, true) -- Arcane Tether (non-dispellable, stacks) (Stacking Ground AoE)
+GridStatusRaidDebuff:DebuffId(zoneid, 211659, 14, 5, 5, true, true) -- Arcane Tether (non-dispellable, stacks) (Stacking Ground AoE)
 
 GridStatusRaidDebuff:DebuffId(zoneid, 204471, 15, 5, 5) -- Focused Blast (non-dispellable) (Frontal Cone AoE)
 
@@ -17,7 +17,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 204471, 15, 5, 5) -- Focused Blast (non-di
 GridStatusRaidDebuff:BossNameId(zoneid, 20, "Chronomatic Anomaly")
 GridStatusRaidDebuff:DebuffId(zoneid, 206607, 21, 5, 5, false, true) -- Chronometric Particles (non-dispellable, stacks) (Stacking DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 206609, 22, 5, 5) -- Time Release (non-dispellable) (heal absorb)
--- GridStatusRaidDebuff:DebuffId(zoneid, 206615, 23, 5, 5) -- Time Bomb (non-dispellable) (Not a Debuff?)
+GridStatusRaidDebuff:DebuffId(zoneid, 206617, 23, 5, 5, true, false) -- Time Bomb (non-dispellable) (Not a Debuff?)
 GridStatusRaidDebuff:DebuffId(zoneid, 212099, 24, 5, 5) -- Temporal Charge (non-dispellable) (DoT)
 
 -- Trilliax
@@ -32,10 +32,10 @@ GridStatusRaidDebuff:BossNameId(zoneid, 40, "Spellblade Aluriel")
 -- Chamion of Blades
 GridStatusRaidDebuff:DebuffId(zoneid, 212492, 41, 5, 5) -- Annihilate (non-dispellable) (DMG + Tank Debuff)
 -- Master of Frost
-GridStatusRaidDebuff:DebuffId(zoneid, 212587, 42, 7, 7) -- Mark of Frost (non-dispellable) (DMG + Increase DMG taken per stack explodes if two people with it get close)
+GridStatusRaidDebuff:DebuffId(zoneid, 212587, 42, 7, 7, true, false) -- Mark of Frost (non-dispellable) (DMG + Increase DMG taken per stack explodes if two people with it get close)
 GridStatusRaidDebuff:DebuffId(zoneid, 212647, 43, 6, 6, false, true) -- Frostbitten (non-dispellable, Stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 212736, 44, 5, 5) -- Pool of Frost (Ground AOE)
-GridStatusRaidDebuff:DebuffId(zoneid, 213083, 45, 5, 5) -- Frozen Tempest (non-dispellable) (DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 213083, 45, 5, 5, true, false) -- Frozen Tempest (non-dispellable) (DoT)
 -- Master of Fire 
 GridStatusRaidDebuff:DebuffId(zoneid, 213166, 46, 7, 7, true, true) -- Searing Brand (non-dispellable, Stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 213278, 47, 5, 5) -- Burning Ground (Ground AOE)
@@ -47,8 +47,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 230414, 49, 5, 5) -- Fel Stomp (Ground AOE
 -- Tichondrius
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Tichondrius")
 -- Stage One
-GridStatusRaidDebuff:DebuffId(zoneid, 206480, 51, 5, 5) -- Carrion Plague (non-dispellable) (DoT)
-GridStatusRaidDebuff:DebuffId(zoneid, 213238, 52, 5, 5) -- Seeker Swarm (non-dispellable) (DMG + Adds Carrion Plague DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 206480, 51, 5, 5, true, false) -- Carrion Plague (non-dispellable) (DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 213238, 52, 5, 5, true, false) -- Seeker Swarm (non-dispellable) (DMG + Adds Carrion Plague DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 212795, 53, 5, 5) -- Brand of Argus (non-dispellable) (Explodes if players clump)
 GridStatusRaidDebuff:DebuffId(zoneid, 208230, 54, 5, 5) -- Feast of Blood (non-dispellable) (Increases DMG Taken)
 -- The Nightborne Felsworn Spellguard
@@ -59,7 +59,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 216040, 56, 5, 5, true, false) -- Burning 
 -- Krosus
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Krosus")
 GridStatusRaidDebuff:DebuffId(zoneid, 208203, 61, 5, 5) -- Isolated Rage (non-dispellable) (Ground AoE Not Avoidable)
-GridStatusRaidDebuff:DebuffId(zoneid, 206677, 62, 5, 5, false, true) -- Searing Brand (non-dispellable, Stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 206677, 62, 5, 5, true, true) -- Searing Brand (non-dispellable, Stacks)
 
 -- High Botanist Tel'arn
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "High Botanist Tel'arn")
@@ -79,15 +79,15 @@ GridStatusRaidDebuff:DebuffId(zoneid, 206936, 82, 5, 5, true) -- Icy Ejection (n
 GridStatusRaidDebuff:DebuffId(zoneid, 206388, 83, 5, 5, false, true) -- Felburst (non-dispellable, stacks) (DMG + DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 205649, 84, 5, 5, false, true) -- Fel Ejection (non-dispellable, stacks) (DMG + DoT)
 -- Stage Four
-GridStatusRaidDebuff:DebuffId(zoneid, 206965, 85, 5, 5) -- Voidburst (non-dispellable) (DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 206965, 85, 5, 5, true, false) -- Voidburst (non-dispellable) (DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 207143, 86, 5, 5) -- Void Ejection (non-dispellable) (DMG + DoT)
 
 -- Grand Magistrix Elisande
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Grand Magistrix Elisande")
 -- Stage Three
-GridStatusRaidDebuff:DebuffId(zoneid, 211258, 91, 5, 5) -- Permeliative Torment (non-dispellable) (DoT)
-GridStatusRaidDebuff:DebuffId(zoneid, 209598, 92, 5, 5) -- Conflexive Burst
-GridStatusRaidDebuff:DebuffId(zoneid, 209971, 93, 5, 5) -- Ablative Pulse
+GridStatusRaidDebuff:DebuffId(zoneid, 211258, 91, 5, 5, true, false) -- Permeliative Torment (non-dispellable) (DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 209598, 92, 5, 5, true, false) -- Conflexive Burst
+GridStatusRaidDebuff:DebuffId(zoneid, 209971, 93, 5, 5, true, false) -- Ablative Pulse
 
 -- Gul'dan
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Gul'dan")
@@ -103,5 +103,5 @@ GridStatusRaidDebuff:DebuffId(zoneid, 206221, 104, 5, 5) -- Empowered Bonds of F
 GridStatusRaidDebuff:DebuffId(zoneid, 208672, 105, 5, 5) -- Carrion Wave (non-dispellable) (AoE DMG + Sleep)
 -- Gul'dan
 GridStatusRaidDebuff:DebuffId(zoneid, 208903, 106, 5, 5) -- Burning Claws (non-dispellable) (ground AoE)
-GridStatusRaidDebuff:DebuffId(zoneid, 208802, 107, 5, 5) -- Soul Corrosion (non-dispellable) (DMG + DoT)
+GridStatusRaidDebuff:DebuffId(zoneid, 208802, 107, 5, 5, false, true) -- Soul Corrosion (non-dispellable) (DMG + DoT)
 
