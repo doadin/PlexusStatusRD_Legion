@@ -87,6 +87,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 90, "Grand Magistrix Elisande")
 -- Stage Three
 GridStatusRaidDebuff:DebuffId(zoneid, 211258, 91, 5, 5) -- Permeliative Torment (non-dispellable) (DoT)
 GridStatusRaidDebuff:DebuffId(zoneid, 209598, 92, 5, 5) -- Conflexive Burst
+GridStatusRaidDebuff:DebuffId(zoneid, 209971, 93, 5, 5) -- Ablative Pulse
 
 -- Gul'dan
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Gul'dan")
