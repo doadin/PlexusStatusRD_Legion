@@ -1,0 +1,7 @@
+package-as: GridStatusRD_Legion
+
+license-output: GPL.txt
+
+ignore:
+ - .pkgmeta
+
