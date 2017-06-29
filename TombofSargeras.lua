@@ -43,6 +43,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 236072, 61, 6, 6) -- Wailing Souls
 GridStatusRaidDebuff:DebuffId(zoneid, 236449, 62, 7, 7) -- Soulbind
 GridStatusRaidDebuff:DebuffId(zoneid, 236515, 63, 6, 6) -- Shattering Scream
 GridStatusRaidDebuff:DebuffId(zoneid, 235989, 64, 6, 6) -- Tormented Cries
+GridStatusRaidDebuff:DebuffId(zoneid, 236131, 65, 7, 7) -- Wither
 
 -- Maiden of Vigilance
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "Maiden of Vigilance")
