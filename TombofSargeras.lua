@@ -28,6 +28,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 236519, 44, 6, 6) -- Moon Burn
 GridStatusRaidDebuff:DebuffId(zoneid, 236697, 45, 7, 7, false, true) -- Deathly Screech
 GridStatusRaidDebuff:DebuffId(zoneid, 236550, 46, 6, 6) -- Discorporate
 GridStatusRaidDebuff:DebuffId(zoneid, 239264, 47, 6, 6, false, true) -- Lunar Fire
+GridStatusRaidDebuff:DebuffId(zoneid, 233263, 48, 7, 7) -- Embrace of the Eclipse
 
 -- Mistress Sassz'ine
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Mistress Sassz'ine")

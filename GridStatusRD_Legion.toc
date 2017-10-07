@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: GridStatusRaidDebuff(Legion)
 ## Notes: Debuff List for Legion
 ## Author: Stassart (Treliss-Sargeras-US) & Doadin (Malorne-US)
