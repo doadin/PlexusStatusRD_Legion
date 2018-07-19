@@ -1,5 +1,5 @@
 --local zone = "Trial of Valor"
-local zoneid = 1114
+local zoneid = 807
 
 --Trash
 GridStatusRaidDebuff:DebuffId(zoneid, 232450, 1, 5, 5) -- Corrupted Axion

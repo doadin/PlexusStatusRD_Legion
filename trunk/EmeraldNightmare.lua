@@ -1,5 +1,5 @@
 -- local zone = "The Emerald Nightmare"
-local zoneid = 1094
+local zoneid = 777
 
 -- Trash
 -- Nythendra

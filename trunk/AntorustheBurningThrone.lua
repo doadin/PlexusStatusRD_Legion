@@ -1,5 +1,5 @@
 -- local zone = "Antorus, the Burning Throne"
-local zoneid = 1188
+local zoneid = 909
 
 -- Trash
 

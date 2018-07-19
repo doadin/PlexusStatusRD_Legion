@@ -1,5 +1,5 @@
 -- local zone = "Tomb of Sargeras"
-local zoneid = 1147
+local zoneid = 850
 
 -- Trash
 
