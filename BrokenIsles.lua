@@ -1,5 +1,5 @@
 -- local zone = "Broken Isles"
-local zoneid = 1007
+local zoneid = 619
 
 -- for i=1,1500,1 do
 --    zone = GetMapNameByID(i)

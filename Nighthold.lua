@@ -1,5 +1,5 @@
 --local zone = "The Nighthold"
-local zoneid = 1088
+local zoneid = 764
 
 -- Skorpyron
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Skorpyron")
