@@ -1,4 +1,4 @@
-package-as: GridStatusRD_Legion
+package-as: PlexusStatusRD_Legion
 
 ignore:
  - .pkgmeta
