@@ -1,5 +1,9 @@
 -- local zone = "Antorus, the Burning Throne"
 local zoneid = 909
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- Trash
 

@@ -15,9 +15,9 @@
 
 ## IconTexture: Interface\AddOns\Plexus\Media\icon
 
-AntorustheBurningThrone.lua
-BrokenIsles.lua
-EmeraldNightmare.lua
-Nighthold.lua
-TombofSargeras.lua
-TrialofValor.lua
+AntorustheBurningThrone.lua [AllowLoadGameType standard]
+BrokenIsles.lua [AllowLoadGameType standard]
+EmeraldNightmare.lua [AllowLoadGameType standard]
+Nighthold.lua [AllowLoadGameType standard]
+TombofSargeras.lua [AllowLoadGameType standard]
+TrialofValor.lua [AllowLoadGameType standard]

@@ -1,5 +1,9 @@
 -- local zone = "Broken Isles"
 local zoneid = 619
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- for i=1,1500,1 do
 --    zone = GetMapNameByID(i)

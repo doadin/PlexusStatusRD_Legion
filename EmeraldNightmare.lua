@@ -1,5 +1,9 @@
 -- local zone = "The Emerald Nightmare"
 local zoneid = 777
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- Trash
 -- Nythendra

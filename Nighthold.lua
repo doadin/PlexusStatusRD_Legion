@@ -1,5 +1,9 @@
 --local zone = "The Nighthold"
 local zoneid = 764
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- Skorpyron
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Skorpyron")

@@ -1,5 +1,9 @@
 -- local zone = "Tomb of Sargeras"
 local zoneid = 850
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 -- Trash
 

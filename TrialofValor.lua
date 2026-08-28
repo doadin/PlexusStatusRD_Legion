@@ -1,5 +1,9 @@
 --local zone = "Trial of Valor"
 local zoneid = 807
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --Trash
 GridStatusRaidDebuff:DebuffId(zoneid, 232450, 1, 5, 5) -- Corrupted Axion
